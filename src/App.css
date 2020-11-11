@@ -8,3 +8,6 @@
 body{
   font-family: Poppins, 'Helvetica Neue', Helvetica, Arial;
 }
+a.navbar-brand{
+  font-family: Cougette, 'cursive';
+}

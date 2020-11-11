@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { auth } from '../../firebase';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -37,9 +37,7 @@ function RegisterComplete({ history }) {
         <div className="container p-5">
             <div className="row">
                 <div className="col-md-6 offset-md-3">
-                    <ToastContainer
 
-                    />
                     <h4>RegisterComplete</h4>
                     <form onSubmit={handleSubmit}>
                         <input type="email" className="form-control" disabled value={email} onChange={(e) => setEmail(e.target.value)} />
